@@ -11,3 +11,5 @@ $ git commit -m "wrote a readme file"
 $ git status (查看状态)
 $ git diff readme.txt (查看差异)
 
+Git is a distributed version control system.
+Git is free software distributed under the GPL.
