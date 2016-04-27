@@ -7,3 +7,7 @@ $ git init (.git隐藏目录)
 
 $ git add readme.txt
 $ git commit -m "wrote a readme file"
+
+$ git status (查看状态)
+$ git diff readme.txt (查看差异)
+
