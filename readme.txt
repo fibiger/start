@@ -31,3 +31,7 @@ $ git clone git@github.com:fibiger/start.git
 [分支]
 $ git checkout -b dev (-b表示创建并切换==git branch dev+git checkout dev)
 $ git branch (查看分支)
+
+$ git checkout master (切换回master)
+$ git merge dev (合并指定分支到当前分支)
+$ git branch -d dev (删除分支)
