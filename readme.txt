@@ -36,3 +36,4 @@ $ git checkout master (切换回master)
 $ git merge dev (合并指定分支到当前分支)
 $ git branch -d dev (删除分支)
 $ git log --graph (查看分支合并图)
+this is a bug number 001 ---finished
