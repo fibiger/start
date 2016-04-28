@@ -27,3 +27,7 @@ $ git push origin master
 
 [clone]
 $ git clone git@github.com:fibiger/start.git
+
+[分支]
+$ git checkout -b dev (-b表示创建并切换==git branch dev+git checkout dev)
+$ git branch (查看分支)
