@@ -24,3 +24,6 @@ $ ssh-keygen -t rsa -C "fibiger@who.com" (将~/.ssh/id_rsa.pub提交到github中
 $ git remote add origin git@github.com:fibiger/start.git (关联到远程仓库)
 $ git push -u origin master (第一次推送到远程库)
 $ git push origin master
+
+[clone]
+$ git clone git@github.com:fibiger/start.git
