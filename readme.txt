@@ -14,4 +14,4 @@ $ git diff readme.txt (查看差异)
 Git is a distributed version control system.
 Git is free software distributed under the GPL.
 
-1
+12
