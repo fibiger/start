@@ -36,4 +36,22 @@ $ git checkout master (切换回master)
 $ git merge dev (合并指定分支到当前分支)
 $ git branch -d dev (删除分支)
 $ git log --graph (查看分支合并图)
-this is a bug number 001 ---finished
+
+$ git merge --no-ff -m "merge with no-ff" dev (不使用Fast forward方式合并，合并后的历史有分支，会生成一个新的commit)
+$ git log --graph --pretty=oneline --abbrev-commit (分支历史
+
+[bug分支]
+在beta分支工作时，需要修改线上bug，此时暂存原beta工作状态，拉出bug分支修复后再恢复beta上的工作
+$ git stash (保存现场，此时用git status看是干净的)
+从master创建bug分支--修复--合并(git merge --no-ff -m "merged bug fix 101" bug001)，返回beta
+$ git stash list (查看工作现场)
+$ git stash pop (恢复并删除 pop=apply+drop)
+$ git stash apply statsh@{0} (恢复知道的stash)
+
+[feature分支强行删除]
+$ git branch -D <name> (没有被合并时需要强行删除)
+$ git push origin dev (推送远程dev分支)
+$ git pull (从远程更新)
+$ git branch --set-upstream dev origin/dev (指定本地dev分支与远程origin/dev分支的链接)
+
+
